@@ -4,6 +4,11 @@ from song import Song
 
 class TestSong:
     '''Class "Song" in song.py'''
+class Song:
+    def __init__(self, title, artist, genre):
+        self.title = title
+        self.artist = artist
+        self.genre = genre
 
     Song("99 Problems", "Jay Z", "Rap")
     Song("Halo", "Beyonce", "Pop")
